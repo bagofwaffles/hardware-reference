@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 404" width="680" height="404" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" role="img">
+<title>OP-XY audio and CV</title><desc>The slave processor with the CS47L35 codec, the MAX98390C speaker amplifier and the CS43131 headphone DAC above it, and the CV output DAC, its TPS65132T6 supply and the TRS MIDI and sync jacks below.</desc>
+<defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#5F5E5A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect x="0.5" y="0.5" width="679" height="403" rx="8" fill="#FFFFFF" stroke="#D3D1C7"/>
+<rect x="40" y="40" width="180" height="56" rx="4" fill="#F1EFE8" stroke="#5F5E5A"/>
+<text x="130.0" y="59.0" font-size="14" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="#2C2C2A">CS47L35</text>
+<text x="130.0" y="77.0" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#444441">Audio codec</text>
+<rect x="250" y="40" width="180" height="56" rx="4" fill="#F1EFE8" stroke="#5F5E5A"/>
+<text x="340.0" y="59.0" font-size="14" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="#2C2C2A">MAX98390C</text>
+<text x="340.0" y="77.0" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#444441">Speaker amp, on the backplane</text>
+<rect x="460" y="40" width="180" height="56" rx="4" fill="#F1EFE8" stroke="#5F5E5A"/>
+<text x="550.0" y="59.0" font-size="14" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="#2C2C2A">CS43131</text>
+<text x="550.0" y="77.0" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#444441">Headphone DAC</text>
+<line x1="130" y1="99" x2="130" y2="167" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#a)" marker-start="url(#a)"/>
+<text x="138" y="133" font-size="12" font-weight="400" text-anchor="start" dominant-baseline="central" fill="#444441">I2C 0x1a, TDM</text>
+<line x1="340" y1="99" x2="340" y2="167" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#a)" marker-start="url(#a)"/>
+<text x="348" y="133" font-size="12" font-weight="400" text-anchor="start" dominant-baseline="central" fill="#444441">I2C 0x38</text>
+<line x1="550" y1="99" x2="550" y2="167" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#a)" marker-start="url(#a)"/>
+<text x="558" y="133" font-size="12" font-weight="400" text-anchor="start" dominant-baseline="central" fill="#444441">I2C 0x33</text>
+<rect x="40" y="170" width="600" height="56" rx="4" fill="#EEEDFE" stroke="#534AB7"/>
+<text x="340.0" y="189.0" font-size="14" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="#26215C">ADSP-BF703 slave</text>
+<text x="340.0" y="207.0" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#3C3489">TWI0, SPORT0, UART0, MSI0</text>
+<line x1="130" y1="229" x2="130" y2="297" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#a)" marker-start="url(#a)"/>
+<text x="138" y="263" font-size="12" font-weight="400" text-anchor="start" dominant-baseline="central" fill="#444441">I2C 0x48</text>
+<line x1="340" y1="229" x2="340" y2="297" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#a)" marker-start="url(#a)"/>
+<text x="348" y="263" font-size="12" font-weight="400" text-anchor="start" dominant-baseline="central" fill="#444441">I2C 0x3e</text>
+<line x1="550" y1="229" x2="550" y2="297" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#a)" marker-start="url(#a)"/>
+<text x="558" y="263" font-size="12" font-weight="400" text-anchor="start" dominant-baseline="central" fill="#444441">UART0, timer</text>
+<rect x="40" y="300" width="180" height="56" rx="4" fill="#FFFFFF" stroke="#888780" stroke-dasharray="5 4"/>
+<text x="130.0" y="319.0" font-size="14" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="#444441">CV output DAC</text>
+<text x="130.0" y="337.0" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#5F5E5A">14-bit, not identified</text>
+<rect x="250" y="300" width="180" height="56" rx="4" fill="#F1EFE8" stroke="#5F5E5A"/>
+<text x="340.0" y="319.0" font-size="14" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="#2C2C2A">TPS65132T6</text>
+<text x="340.0" y="337.0" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#444441">CV supply, split rail</text>
+<rect x="460" y="300" width="180" height="56" rx="4" fill="#F1EFE8" stroke="#5F5E5A"/>
+<text x="550.0" y="319.0" font-size="14" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="#2C2C2A">TRS MIDI and sync</text>
+<text x="550.0" y="337.0" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#444441">31,250 baud</text>
+<rect x="40" y="374" width="12" height="12" rx="2" fill="#EEEDFE" stroke="#534AB7"/>
+<text x="58" y="380" font-size="12" font-weight="400" text-anchor="start" dominant-baseline="central" fill="#444441">Processor</text>
+<rect x="137" y="374" width="12" height="12" rx="2" fill="#F1EFE8" stroke="#5F5E5A"/>
+<text x="155.6" y="380" font-size="12" font-weight="400" text-anchor="start" dominant-baseline="central" fill="#444441">Identified part</text>
+<rect x="273" y="374" width="12" height="12" rx="2" fill="#FFFFFF" stroke="#888780" stroke-dasharray="3 2"/>
+<text x="291.6" y="380" font-size="12" font-weight="400" text-anchor="start" dominant-baseline="central" fill="#444441">Not identified</text>
+</svg>

@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 470" width="680" height="470" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" role="img">
+<title>OP-XY boards</title><desc>Which chips sit on each of the three boards: the DSP board, the backplane and the keyboard board.</desc>
+<defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#5F5E5A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect x="0.5" y="0.5" width="679" height="469" rx="8" fill="#FFFFFF" stroke="#D3D1C7"/>
+<rect x="30" y="30" width="300" height="410" rx="8" fill="#FAFAF7" stroke="#B4B2A9"/>
+<text x="180.0" y="50" font-size="14" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="#2C2C2A">DSP board  ·  175-00139 rev 5.0</text>
+<rect x="350" y="30" width="300" height="266" rx="8" fill="#FAFAF7" stroke="#B4B2A9"/>
+<text x="500.0" y="50" font-size="14" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="#2C2C2A">Backplane  ·  175-00140 rev 3.0</text>
+<rect x="350" y="316" width="300" height="124" rx="8" fill="#FAFAF7" stroke="#B4B2A9"/>
+<text x="500.0" y="336" font-size="14" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="#2C2C2A">Keyboard board  ·  175-00142</text>
+<rect x="44" y="64" width="132" height="40" rx="4" fill="#EEEDFE" stroke="#534AB7"/>
+<text x="110.0" y="75.0" font-size="14" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="#26215C">ADSP-BF703</text>
+<text x="110.0" y="93.0" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#3C3489">Processor</text>
+<rect x="44" y="112" width="132" height="40" rx="4" fill="#F1EFE8" stroke="#5F5E5A"/>
+<text x="110.0" y="123.0" font-size="14" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="#2C2C2A">IS43DR16128C</text>
+<text x="110.0" y="141.0" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#444441">DDR2, 2 Gbit</text>
+<rect x="44" y="160" width="132" height="40" rx="4" fill="#F1EFE8" stroke="#5F5E5A"/>
+<text x="110.0" y="171.0" font-size="14" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="#2C2C2A">CS47L35</text>
+<text x="110.0" y="189.0" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#444441">Audio codec</text>
+<rect x="44" y="208" width="132" height="40" rx="4" fill="#F1EFE8" stroke="#5F5E5A"/>
+<text x="110.0" y="219.0" font-size="14" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="#2C2C2A">CS43131</text>
+<text x="110.0" y="237.0" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#444441">Headphone DAC</text>
+<rect x="44" y="256" width="132" height="40" rx="4" fill="#F1EFE8" stroke="#5F5E5A"/>
+<text x="110.0" y="267.0" font-size="14" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="#2C2C2A">AS3709</text>
+<text x="110.0" y="285.0" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#444441">Power management</text>
+<rect x="44" y="304" width="132" height="40" rx="4" fill="#F1EFE8" stroke="#5F5E5A"/>
+<text x="110.0" y="315.0" font-size="14" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="#2C2C2A">25 and 24 MHz</text>
+<text x="110.0" y="333.0" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#444441">Crystals</text>
+<rect x="44" y="352" width="132" height="40" rx="4" fill="#FFFFFF" stroke="#888780" stroke-dasharray="5 4"/>
+<text x="110.0" y="363.0" font-size="14" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="#444441">Marked I6DEB3</text>
+<text x="110.0" y="381.0" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#5F5E5A">SPI flash?</text>
+<rect x="184" y="64" width="132" height="40" rx="4" fill="#EEEDFE" stroke="#534AB7"/>
+<text x="250.0" y="75.0" font-size="14" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="#26215C">ADSP-BF703</text>
+<text x="250.0" y="93.0" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#3C3489">Processor</text>
+<rect x="184" y="112" width="132" height="40" rx="4" fill="#F1EFE8" stroke="#5F5E5A"/>
+<text x="250.0" y="123.0" font-size="14" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="#2C2C2A">IS43DR16128C</text>
+<text x="250.0" y="141.0" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#444441">DDR2, 2 Gbit</text>
+<rect x="184" y="160" width="132" height="40" rx="4" fill="#F1EFE8" stroke="#5F5E5A"/>
+<text x="250.0" y="171.0" font-size="14" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="#2C2C2A">Kioxia e-MMC</text>
+<text x="250.0" y="189.0" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#444441">16 GB</text>
+<rect x="184" y="208" width="132" height="40" rx="4" fill="#F1EFE8" stroke="#5F5E5A"/>
+<text x="250.0" y="219.0" font-size="14" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="#2C2C2A">TPS65132T6</text>
+<text x="250.0" y="237.0" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#444441">Split-rail supply</text>
+<rect x="184" y="256" width="132" height="40" rx="4" fill="#F1EFE8" stroke="#5F5E5A"/>
+<text x="250.0" y="267.0" font-size="14" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="#2C2C2A">LTV-354T?</text>
+<text x="250.0" y="285.0" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#444441">Optocoupler</text>
+<rect x="184" y="304" width="132" height="40" rx="4" fill="#FFFFFF" stroke="#888780" stroke-dasharray="5 4"/>
+<text x="250.0" y="315.0" font-size="14" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="#444441">TI, marked P145A</text>
+<text x="250.0" y="333.0" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#5F5E5A">Not identified</text>
+<rect x="364" y="64" width="132" height="40" rx="4" fill="#EEEDFE" stroke="#534AB7"/>
+<text x="430.0" y="75.0" font-size="14" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="#26215C">PSoC 4200L</text>
+<text x="430.0" y="93.0" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#3C3489">CY8C4247BZI-L479</text>
+<rect x="364" y="112" width="132" height="40" rx="4" fill="#F1EFE8" stroke="#5F5E5A"/>
+<text x="430.0" y="123.0" font-size="14" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="#2C2C2A">MAX77818</text>
+<text x="430.0" y="141.0" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#444441">Charger, fuel gauge</text>
+<rect x="364" y="160" width="132" height="40" rx="4" fill="#F1EFE8" stroke="#5F5E5A"/>
+<text x="430.0" y="171.0" font-size="14" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="#2C2C2A">MAX98390C</text>
+<text x="430.0" y="189.0" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#444441">Speaker amplifier</text>
+<rect x="364" y="208" width="132" height="40" rx="4" fill="#F1EFE8" stroke="#5F5E5A"/>
+<text x="430.0" y="228.0" font-size="14" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="#2C2C2A">Four encoders</text>
+<rect x="504" y="64" width="132" height="40" rx="4" fill="#EEEDFE" stroke="#534AB7"/>
+<text x="570.0" y="75.0" font-size="14" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="#26215C">nRF52840</text>
+<text x="570.0" y="93.0" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#3C3489">Bluetooth LE</text>
+<rect x="504" y="112" width="132" height="40" rx="4" fill="#F1EFE8" stroke="#5F5E5A"/>
+<text x="570.0" y="123.0" font-size="14" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="#2C2C2A">SKY66404-11</text>
+<text x="570.0" y="141.0" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#444441">2.4 GHz front end</text>
+<rect x="504" y="160" width="132" height="40" rx="4" fill="#F1EFE8" stroke="#5F5E5A"/>
+<text x="570.0" y="171.0" font-size="14" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="#2C2C2A">32 MHz</text>
+<text x="570.0" y="189.0" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#444441">Crystal</text>
+<rect x="504" y="208" width="132" height="40" rx="4" fill="#FFFFFF" stroke="#888780" stroke-dasharray="5 4"/>
+<text x="570.0" y="219.0" font-size="14" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="#444441">Four chips</text>
+<text x="570.0" y="237.0" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#5F5E5A">Not identified</text>
+<rect x="364" y="350" width="132" height="40" rx="4" fill="#F1EFE8" stroke="#5F5E5A"/>
+<text x="430.0" y="370.0" font-size="14" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="#2C2C2A">Keys</text>
+<rect x="504" y="350" width="132" height="40" rx="4" fill="#FFFFFF" stroke="#888780" stroke-dasharray="5 4"/>
+<text x="570.0" y="361.0" font-size="14" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="#444441">Marked Z41KJ ×2</text>
+<text x="570.0" y="379.0" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#5F5E5A">Not identified</text>
+<rect x="364" y="396" width="272" height="32" rx="4" fill="#FFFFFF" stroke="#888780" stroke-dasharray="5 4"/>
+<text x="500.0" y="412.0" font-size="14" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="#444441">Display: not yet photographed</text>
+</svg>

@@ -1,0 +1,45 @@
+{
+  "_comment": "Chip labels for the annotated copies. Boxes are [left, top, right, bottom] in pixels of the original photo. Run tools/annotate.py after editing. 'known': false draws the box in orange for a part that is not identified yet.",
+  "cpu-pcb-front.jpg": {
+    "title": "DSP board, component side (PCB 175-00139, rev 5.0)",
+    "labels": [
+      {"box": [1050, 413, 1725, 1097], "text": "Analog Devices ADSP-BF703KBCZ-4, Blackfin+ processor (one of two)"},
+      {"box": [1860, 413, 2536, 1097], "text": "Analog Devices ADSP-BF703KBCZ-4, Blackfin+ processor (two of two)"},
+      {"box": [1041, 1113, 1725, 1622], "text": "ISSI IS43DR16128C-25DBL, 2 Gbit DDR2 SDRAM"},
+      {"box": [1852, 1113, 2536, 1622], "text": "ISSI IS43DR16128C-25DBL, 2 Gbit DDR2 SDRAM"},
+      {"box": [2655, 994, 3371, 1638], "text": "Kioxia THGAMVG7T13BAIL, 16 GB e-MMC"},
+      {"box": [2895, 500, 3060, 700], "text": "Cirrus Logic CS43131, headphone DAC"},
+      {"box": [3410, 480, 3625, 745], "text": "Cirrus Logic CS47L35, audio codec"},
+      {"box": [548, 618, 688, 772], "text": "ams AS3709, power management"},
+      {"box": [3535, 1395, 3635, 1525], "text": "Texas Instruments TPS65132T6, split-rail supply"},
+      {"box": [872, 242, 1038, 405], "text": "25.0 MHz crystal"},
+      {"box": [1325, 270, 1490, 422], "text": "24.0 MHz crystal"},
+      {"box": [1740, 520, 1850, 735], "text": "Marked I6DEB3: not identified (SPI flash candidate)", "known": false},
+      {"box": [3765, 1350, 3930, 1640], "text": "Texas Instruments, marked P145A: not identified", "known": false}
+    ]
+  },
+  "cpu-pcb-back.jpg": {
+    "title": "DSP board, back (PCB 175-00139, rev 5.0)",
+    "labels": [
+      {"box": [427, 1232, 695, 1438], "text": "Optocoupler, probably Lite-On LTV-354T (MIDI input isolation, inferred)"}
+    ]
+  },
+  "main-boards.jpg": {
+    "title": "Inside, rear cover and plate removed: backplane (PCB 175-00140, rev 3.0) and DSP board",
+    "labels": [
+      {"box": [2784, 213, 2916, 347], "text": "Infineon CY8C4247BZI-L479 (PSoC 4200L), key, LED and power coprocessor"},
+      {"box": [3239, 263, 3295, 320], "text": "Maxim MAX77818, battery charger and fuel gauge"},
+      {"box": [891, 339, 943, 391], "text": "Nordic nRF52840, Bluetooth LE"},
+      {"box": [994, 338, 1052, 388], "text": "Skyworks SKY66404-11, 2.4 GHz front end"},
+      {"box": [645, 555, 685, 590], "text": "Maxim MAX98390C, speaker amplifier"},
+      {"box": [3469, 465, 3884, 1428], "text": "DSP board: processors, DDR2, e-MMC, codec (see cpu-pcb-front)"}
+    ]
+  },
+  "keys-back.jpg": {
+    "title": "Keyboard board, back (PCB 175-00142, PCBA 830-00140, rev 3.0)",
+    "labels": [
+      {"box": [639, 229, 700, 288], "text": "32-pin QFN marked Z41KJ: not identified", "known": false},
+      {"box": [1123, 215, 1184, 277], "text": "32-pin QFN marked Z41KJ: not identified", "known": false}
+    ]
+  }
+}
