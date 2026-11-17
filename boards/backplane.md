@@ -29,6 +29,8 @@ Also on this side, not numbered: a 32 MHz crystal and a smaller one beside the n
 whose markings are read but not identified (see
 [parts.md](../parts.md#marking-read-part-not-identified)).
 
+The cyan circles are the candidate test pads listed in [test-points.md](test-points.md).
+
 ## Antennas
 
 Two coaxial connectors sit after the front end. One is silkscreened `to ble clip`. The other carries the

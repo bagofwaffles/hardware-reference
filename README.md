@@ -14,6 +14,7 @@ This is an unofficial community reference. It is not affiliated with or endorsed
 | [boards/dsp.md](boards/dsp.md) | The DSP board: processors, memory, storage, audio converters |
 | [boards/backplane.md](boards/backplane.md) | The backplane: coprocessor, charging, Bluetooth, speaker amplifier |
 | [boards/keyboard.md](boards/keyboard.md) | The keyboard board |
+| [boards/test-points.md](boards/test-points.md) | Every candidate test pad, numbered on the photos. None identified yet |
 | [photos/](photos/) | The photos, each board photo with an annotated copy |
 
 ![Inside the unit: the backplane with its chips numbered](photos/main-boards-annotated.jpg)

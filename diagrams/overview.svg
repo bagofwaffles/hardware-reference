@@ -6,8 +6,8 @@
 <text x="265.0" y="59.0" font-size="14" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="#2C2C2A">ST7796</text>
 <text x="265.0" y="77.0" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#444441">LCD, 222 × 480 visible</text>
 <rect x="350" y="40" width="130" height="56" rx="4" fill="#F1EFE8" stroke="#5F5E5A"/>
-<text x="415.0" y="59.0" font-size="14" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="#2C2C2A">SPI flash</text>
-<text x="415.0" y="77.0" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#444441">8 Mbit, program code</text>
+<text x="415.0" y="59.0" font-size="14" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="#2C2C2A">IS25WP080D</text>
+<text x="415.0" y="77.0" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#444441">SPI flash, 8 Mbit</text>
 <rect x="500" y="40" width="130" height="56" rx="4" fill="#F1EFE8" stroke="#5F5E5A"/>
 <text x="565.0" y="59.0" font-size="14" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="#2C2C2A">Kioxia e-MMC</text>
 <text x="565.0" y="77.0" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#444441">16 GB</text>

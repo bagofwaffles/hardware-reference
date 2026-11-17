@@ -1,5 +1,5 @@
 {
-  "_comment": "Chip labels for the annotated copies. Boxes are [left, top, right, bottom] in pixels of the original photo. Run tools/annotate.py after editing. 'known': false draws the box in orange for a part that is not identified yet.",
+  "_comment": "Chip labels for the annotated copies. Boxes are [left, top, right, bottom] in pixels of the original photo. Run tools/annotate.py after editing. 'known': false draws the box in orange for a part that is not identified yet. 'pads' lists test pads as a centre [x, y] and an id, drawn as circles of 'pad_radius' pixels; they are described in boards/test-points.md.",
   "cpu-pcb-front.jpg": {
     "title": "DSP board, component side (PCB 175-00139, rev 5.0)",
     "labels": [
@@ -14,14 +14,67 @@
       {"box": [3535, 1395, 3635, 1525], "text": "Texas Instruments TPS65132T6, split-rail supply"},
       {"box": [872, 242, 1038, 405], "text": "25.0 MHz crystal"},
       {"box": [1325, 270, 1490, 422], "text": "24.0 MHz crystal"},
-      {"box": [1740, 520, 1850, 735], "text": "Marked I6DEB3: not identified (SPI flash candidate)", "known": false},
+      {"box": [1740, 520, 1850, 735], "text": "ISSI IS25WP080D, 8 Mbit SPI flash"},
       {"box": [3765, 1350, 3930, 1640], "text": "Texas Instruments, marked P145A: not identified", "known": false}
+    ],
+    "pad_radius": 26,
+    "pads": [
+      {"id": "DF1", "at": [937, 481]},
+      {"id": "DF2", "at": [970, 796]},
+      {"id": "DF3", "at": [2570, 565]},
+      {"id": "DF4", "at": [2580, 753]},
+      {"id": "DF5", "at": [2618, 1232]},
+      {"id": "DF6", "at": [2618, 1298]},
+      {"id": "DF7", "at": [2618, 1370]},
+      {"id": "DF8", "at": [2757, 840]},
+      {"id": "DF9", "at": [2782, 737]}
     ]
   },
   "cpu-pcb-back.jpg": {
     "title": "DSP board, back (PCB 175-00139, rev 5.0)",
     "labels": [
       {"box": [427, 1232, 695, 1438], "text": "Optocoupler, probably Lite-On LTV-354T (MIDI input isolation, inferred)"}
+    ],
+    "pad_radius": 36,
+    "pads": [
+      {"id": "DB1", "at": [147, 1070]},
+      {"id": "DB2", "at": [171, 1433]},
+      {"id": "DB3", "at": [179, 614]},
+      {"id": "DB4", "at": [198, 512]},
+      {"id": "DB5", "at": [442, 331]},
+      {"id": "DB6", "at": [546, 1156]},
+      {"id": "DB7", "at": [649, 1149]},
+      {"id": "DB8", "at": [889, 566]},
+      {"id": "DB9", "at": [975, 1218]},
+      {"id": "DB10", "at": [1366, 617]},
+      {"id": "DB11", "at": [1478, 507]},
+      {"id": "DB12", "at": [1567, 803]},
+      {"id": "DB13", "at": [1805, 661]},
+      {"id": "DB14", "at": [2053, 425]},
+      {"id": "DB15", "at": [2100, 799]},
+      {"id": "DB16", "at": [2121, 977]},
+      {"id": "DB17", "at": [2265, 763]},
+      {"id": "DB18", "at": [2314, 1051]},
+      {"id": "DB19", "at": [2314, 1186]},
+      {"id": "DB20", "at": [2348, 646]},
+      {"id": "DB21", "at": [2358, 874]},
+      {"id": "DB22", "at": [2641, 927]},
+      {"id": "DB23", "at": [2669, 1519]},
+      {"id": "DB24", "at": [2918, 786]},
+      {"id": "DB25", "at": [3051, 783]},
+      {"id": "DB26", "at": [3141, 1087]},
+      {"id": "DB27", "at": [3205, 964]},
+      {"id": "DB28", "at": [3382, 470]},
+      {"id": "DB29", "at": [3511, 485]},
+      {"id": "DB30", "at": [3593, 595]},
+      {"id": "DB31", "at": [3603, 782]},
+      {"id": "DB32", "at": [3622, 87]},
+      {"id": "DB33", "at": [3683, 482]},
+      {"id": "DB34", "at": [3726, 737]},
+      {"id": "DB35", "at": [3834, 818]},
+      {"id": "DB36", "at": [3840, 87]},
+      {"id": "DB37", "at": [3933, 452]},
+      {"id": "DB38", "at": [3959, 822]}
     ]
   },
   "main-boards.jpg": {
@@ -33,6 +86,19 @@
       {"box": [994, 338, 1052, 388], "text": "Skyworks SKY66404-11, 2.4 GHz front end"},
       {"box": [645, 555, 685, 590], "text": "Maxim MAX98390C, speaker amplifier"},
       {"box": [3469, 465, 3884, 1428], "text": "DSP board: processors, DDR2, e-MMC, codec (see cpu-pcb-front)"}
+    ],
+    "pad_radius": 12,
+    "pads": [
+      {"id": "BP1", "at": [783, 528]},
+      {"id": "BP2", "at": [916, 454]},
+      {"id": "BP3", "at": [1429, 513]},
+      {"id": "BP4", "at": [1429, 550]},
+      {"id": "BP5", "at": [1797, 599]},
+      {"id": "BP6", "at": [1830, 599]},
+      {"id": "BP7", "at": [1855, 528]},
+      {"id": "BP8", "at": [1887, 528]},
+      {"id": "BP9", "at": [3132, 571]},
+      {"id": "BP10", "at": [3187, 496]}
     ]
   },
   "keys-back.jpg": {

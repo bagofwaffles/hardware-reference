@@ -24,7 +24,7 @@ above.
 | 9 | `TPS / 65132T6` | Texas Instruments TPS65132T6 | Split-rail supply |
 | 10 | `25.0 / AD3C` | 25.0 MHz crystal | Processor clock |
 | 11 | `24.0 / AG39` | 24.0 MHz crystal | Probably the USB clock |
-| 12 | `I6DEB3 / P1L944` | Not identified | 8-pad leadless package between the processors. A candidate for the SPI flash |
+| 12 | `I6DEB3 / P1L944` | ISSI IS25WP080D | 8 Mbit SPI flash holding the program code, in an 8-pad leadless package between the processors |
 | 13 | `TI 34 / P145A / 751Z` | Not identified (Texas Instruments, 10-pin VSSOP) | Unknown |
 
 ### Back
@@ -35,7 +35,9 @@ above.
 |---|---|---|---|
 | 1 | logo, `N48 / 354T / WC` | Probably Lite-On LTV-354T | 4-pin optocoupler, probably the MIDI input isolation |
 
-The back otherwise carries passives, a few small transistors and the second board-to-board connector.
+The back otherwise carries passives, a few small transistors, the second board-to-board connector and
+38 unlabelled test pads. The cyan circles on both photos are the pads listed in
+[test-points.md](test-points.md).
 
 ## Board markings
 

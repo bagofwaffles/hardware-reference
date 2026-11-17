@@ -25,7 +25,8 @@ python3 tools/annotate.py
 ```
 
 The script needs Pillow and never changes the originals. A yellow box is an identified part. An orange
-box is a chip whose marking is read but whose part number is not known yet.
+box is a chip whose marking is read but whose part number is not known yet. A cyan circle is a test pad
+from the photo's `pads` list, described in [test-points.md](../boards/test-points.md).
 
 ## Naming
 

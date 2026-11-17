@@ -26,9 +26,9 @@
 <rect x="44" y="304" width="132" height="40" rx="4" fill="#F1EFE8" stroke="#5F5E5A"/>
 <text x="110.0" y="315.0" font-size="14" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="#2C2C2A">25 and 24 MHz</text>
 <text x="110.0" y="333.0" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#444441">Crystals</text>
-<rect x="44" y="352" width="132" height="40" rx="4" fill="#FFFFFF" stroke="#888780" stroke-dasharray="5 4"/>
-<text x="110.0" y="363.0" font-size="14" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="#444441">Marked I6DEB3</text>
-<text x="110.0" y="381.0" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#5F5E5A">SPI flash?</text>
+<rect x="44" y="352" width="132" height="40" rx="4" fill="#F1EFE8" stroke="#5F5E5A"/>
+<text x="110.0" y="363.0" font-size="14" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="#2C2C2A">IS25WP080D</text>
+<text x="110.0" y="381.0" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#444441">SPI flash, 8 Mbit</text>
 <rect x="184" y="64" width="132" height="40" rx="4" fill="#EEEDFE" stroke="#534AB7"/>
 <text x="250.0" y="75.0" font-size="14" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="#26215C">ADSP-BF703</text>
 <text x="250.0" y="93.0" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="central" fill="#3C3489">Processor</text>

@@ -32,7 +32,7 @@
 | Bluetooth LE | Nordic Semiconductor **nRF52840** (CKAA package, a WLCSP) | marking *(close-up)*: `N52840 / CKAAD0 / 2241KU`. Takes Nordic DFU updates | backplane | Master UART1, 1 Mbaud, RTS/CTS | [nRF52840 product page](https://www.nordicsemi.com/Products/nRF52840) |
 | 2.4 GHz front end for the nRF52840 | Skyworks **SKY66404-11** (PA, LNA and antenna switch in a 22-pad module) | marking *(close-up)*: Skyworks logo and `66404` | backplane, between the nRF52840 and the antenna connector | Two antenna outputs. One is silkscreened `to ble clip`; the other label is partly covered by its cable | [SKY66404-11 product page](https://www.skyworksinc.com/Products/Front-end-Modules/SKY66404-11) |
 | Optocoupler, probably the MIDI input isolation | 4-pin SOP, probably Lite-On **LTV-354T** | marking *(close-up)*: a logo, then `N48 / 354T / WC`. The part is inferred from `354T`, and the role from the package | DSP, back | Not traced | — |
-| Program flash, 1 MiB | ISSI **IS25WP080D** (8 Mbit, 1.8 V SPI NOR) | ID read `9d 70 14`: `9d` is ISSI; the device bytes are not yet checked against the datasheet. Not yet matched to a package (see the next table) | ? | Master SPI2; the boot ROM boots from it | [ISSI serial flash page](https://www.issi.com/US/product-flash.shtml) |
+| Program flash, 1 MiB | ISSI **IS25WP080D** (8 Mbit, 1.8 V SPI NOR) | ID read `9d 70 14` (JEDEC ID), which is the IS25WP080D's in the ISSI datasheet: `9d` is ISSI, `70` the memory type and `14` the capacity. Marking *(close-up)*: `I6DEB3 / P1L944`, on an 8-pad leadless package | DSP, between the two processors | Master SPI2; the boot ROM boots from it | [ISSI serial flash page](https://www.issi.com/US/product-flash.shtml) |
 | Display controller | Sitronix **ST7796** family (ST7796S command set) | ID read: RDID4 `00 77 96` | ? | 8080 8-bit parallel to the master; 320×480 controller, 222×480 visible | [Sitronix](https://www.sitronix.com.tw/en/) (no public product page; the ST7796S datasheet is widely mirrored) |
 | RTC | On-chip RTC of the ADSP-BF703 | n/a (on-chip) | — | — | see ADSP-BF703 |
 | USB | On-chip USB 2.0 OTG controller and PHY of the master ADSP-BF703 | n/a (on-chip) | — | — | see ADSP-BF703 |
@@ -65,7 +65,6 @@ These markings are legible in a close-up but have not been matched to a part num
 
 | Board | Package | Marking | Notes |
 |---|---|---|---|
-| DSP, between the two processors | 8-pad leadless | `I6DEB3 / P1L944` | A candidate for the SPI flash by package and position. Not confirmed |
 | DSP, by the e-MMC | 10-pin VSSOP, Texas Instruments | `TI 34 / P145A / 751Z` | Next to the TPS65132T6 |
 | DSP | SOT-23, 5 or 6 pins | `1CUV` | |
 | DSP, both sides | 6-pad leadless, several | `X5` | |
@@ -99,9 +98,8 @@ charger, the PSoC, the Nordic part and its front end, and which board each of th
 
 Still open:
 
-1. The SPI flash package: whether the chip marked `I6DEB3` is the IS25WP080D.
-2. The CV output DAC, and whether the TI part marked `P145A` is it.
-3. The parts in the "marking read" table above, most of all the two `Z41KJ` chips on the keyboard.
-4. The key LED driver at I2C `0x34`, and where the FUSB302, LSM6DSO and TW11 sit.
-5. The display module and its flex marking.
-6. The underside of the backplane and the key side of the keyboard, which no photo shows yet.
+1. The CV output DAC, and whether the TI part marked `P145A` is it.
+2. The parts in the "marking read" table above, most of all the two `Z41KJ` chips on the keyboard.
+3. The key LED driver at I2C `0x34`, and where the FUSB302, LSM6DSO and TW11 sit.
+4. The display module and its flex marking.
+5. The underside of the backplane and the key side of the keyboard, which no photo shows yet.

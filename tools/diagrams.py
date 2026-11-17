@@ -101,7 +101,7 @@ def overview():
                 "link. The master connects to the display, the SPI flash, the nRF52840, the PSoC and "
                 "USB. The slave connects to the e-MMC and the audio and CV chips.")
     d.box(200, 40, 130, 56, "ST7796", "LCD, 222 × 480 visible")
-    d.box(350, 40, 130, 56, "SPI flash", "8 Mbit, program code")
+    d.box(350, 40, 130, 56, "IS25WP080D", "SPI flash, 8 Mbit")
     d.box(500, 40, 130, 56, "Kioxia e-MMC", "16 GB")
     d.link(300, 148, 300, 99, both=False)
     d.text(292, 124, "8080, 8-bit", anchor="end")
@@ -154,7 +154,7 @@ def boards():
     stack(44, 64, 132, [("ADSP-BF703", "Processor", "cpu"), ("IS43DR16128C", "DDR2, 2 Gbit", "part"),
                         ("CS47L35", "Audio codec", "part"), ("CS43131", "Headphone DAC", "part"),
                         ("AS3709", "Power management", "part"), ("25 and 24 MHz", "Crystals", "part"),
-                        ("Marked I6DEB3", "SPI flash?", "todo")])
+                        ("IS25WP080D", "SPI flash, 8 Mbit", "part")])
     stack(184, 64, 132, [("ADSP-BF703", "Processor", "cpu"), ("IS43DR16128C", "DDR2, 2 Gbit", "part"),
                          ("Kioxia e-MMC", "16 GB", "part"), ("TPS65132T6", "Split-rail supply", "part"),
                          ("LTV-354T?", "Optocoupler", "part"), ("TI, marked P145A", "Not identified", "todo")])
